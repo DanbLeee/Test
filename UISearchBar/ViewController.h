@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+//将ViewController的父类设置为表视图控制器，可以不用再声明表视图控制器协议方法。
 @interface ViewController : UIViewController
 
-
 @end
-
