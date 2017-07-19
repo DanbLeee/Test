@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		0E25CAB21D69C562000EA876 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E25CAB01D69C562000EA876 /* CustomCell.m */; };
 		0E25CAB31D69C562000EA876 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E25CAB11D69C562000EA876 /* CustomCell.xib */; };
+		0E75E2061F1F007800E604E0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E75E2051F1F007800E604E0 /* Launch Screen.storyboard */; };
 		0EABCADC1D6D9A8B0098A557 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EABCADB1D6D9A8B0098A557 /* NavigationController.m */; };
 		0EF31A7A1D6438E80037FBF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF31A791D6438E80037FBF4 /* main.m */; };
 		0EF31A7D1D6438E80037FBF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF31A7C1D6438E80037FBF4 /* AppDelegate.m */; };
 		0EF31A851D6438E80037FBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF31A841D6438E80037FBF4 /* Assets.xcassets */; };
-		0EF31A881D6438E80037FBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF31A861D6438E80037FBF4 /* LaunchScreen.storyboard */; };
 		0EF31A931D6438E80037FBF4 /* UISearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF31A921D6438E80037FBF4 /* UISearchBarTests.m */; };
 		0EF31A9E1D6438E80037FBF4 /* UISearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF31A9D1D6438E80037FBF4 /* UISearchBarUITests.m */; };
 		0EF31AB01D64442C0037FBF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF31AAF1D64442C0037FBF4 /* ViewController.m */; };
@@ -73,6 +73,7 @@
 		0E25CAAF1D69C562000EA876 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		0E25CAB01D69C562000EA876 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		0E25CAB11D69C562000EA876 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		0E75E2051F1F007800E604E0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0EABCADA1D6D9A8B0098A557 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		0EABCADB1D6D9A8B0098A557 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		0EF31A751D6438E80037FBF4 /* UISearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +81,6 @@
 		0EF31A7B1D6438E80037FBF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EF31A7C1D6438E80037FBF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0EF31A841D6438E80037FBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0EF31A871D6438E80037FBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EF31A891D6438E80037FBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EF31A8E1D6438E80037FBF4 /* UISearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF31A921D6438E80037FBF4 /* UISearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchBarTests.m; sourceTree = "<group>"; };
@@ -185,8 +185,8 @@
 				0E25CAB01D69C562000EA876 /* CustomCell.m */,
 				0E25CAB11D69C562000EA876 /* CustomCell.xib */,
 				0EF31A841D6438E80037FBF4 /* Assets.xcassets */,
-				0EF31A861D6438E80037FBF4 /* LaunchScreen.storyboard */,
 				0EF31A891D6438E80037FBF4 /* Info.plist */,
+				0E75E2051F1F007800E604E0 /* Launch Screen.storyboard */,
 				0EF31A781D6438E80037FBF4 /* Supporting Files */,
 			);
 			path = UISearchBar;
@@ -361,7 +361,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EF31AF31D644A120037FBF4 /* USA.png in Resources */,
-				0EF31A881D6438E80037FBF4 /* LaunchScreen.storyboard in Resources */,
 				0EF31AD51D644A120037FBF4 /* Argentina.png in Resources */,
 				0EF31AF21D644A120037FBF4 /* Uruguay.png in Resources */,
 				0EF31AE31D644A120037FBF4 /* Italy.png in Resources */,
@@ -391,6 +390,7 @@
 				0EF31AD71D644A120037FBF4 /* Brazil.png in Resources */,
 				0EF31ADF1D644A120037FBF4 /* Ghana.png in Resources */,
 				0EF31ADA1D644A120037FBF4 /* CoteDIvoire.png in Resources */,
+				0E75E2061F1F007800E604E0 /* Launch Screen.storyboard in Resources */,
 				0EF31AD91D644A120037FBF4 /* Chile.png in Resources */,
 				0EF31AD41D644A120037FBF4 /* Algeria.png in Resources */,
 				0EF31AEE1D644A120037FBF4 /* SouthAfrica.png in Resources */,
@@ -458,17 +458,6 @@
 			targetProxy = 0EF31A9A1D6438E80037FBF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0EF31A861D6438E80037FBF4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0EF31A871D6438E80037FBF4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0EF31AA01D6438E80037FBF4 /* Debug */ = {
